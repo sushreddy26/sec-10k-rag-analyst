@@ -1,0 +1,16 @@
+# Python environments & cache
+venv/
+env/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+
+# Data & Vector DB (Do NOT push large downloads)
+data/raw_filings/
+vector_store/
+*.chroma
+
+# Model weight checkpoints
+*.bin
+*.safetensors
